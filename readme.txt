@@ -1,4 +1,5 @@
-These kinds of coding tests are given to coders who are looking for a job, so I was also one of them, so thought of uploading this stuff here. Hope you guys find this useful. 
+These kinds of coding tests are given to coders who are looking for a job, so I was also one of them, 
+so thought of uploading this stuff here. Hope you guys find this useful. 
 
 Instructions:
 
