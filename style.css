@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.input {
+    padding: 10px;
+    margin-left: 600px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    margin: auto;
+    padding-top: 5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    text-align: center;
+}
+
+#my-form {
+    padding: 2rem;
+    background: #f4f4f4f4;
+}
+
+#my-form label {
+    display: block;
+}
+
+#my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    width: 25%;
+    align-self: center;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.btn:hover {
+    background: #444;
+}

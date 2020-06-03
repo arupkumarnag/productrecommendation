@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>YOU-Bank</title>
+</head>
+<body>
+    <h1>Welcome to You-Bank</h1>
+    <h3>Please insert your credentials for Product & Bundle Recommendation</h3>
+
+    <section class="container">
+        <form id="my-form">
+            <h1>Enter your details</h1>
+            
+            <div>
+                <label for="age">Your Age:</label>
+                <input type="number" id="age" required>
+            </div>
+
+            <div>
+                <label for="student">Are You a Student ?</label>
+                <select id="student">
+                    <option value="select">Select</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>    
+            </div>
+
+            <div>
+                <label for="student">Enter Your Income</label>
+                <input type="number" id="income" required>
+            </div>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+
+        <div class="bundle"></div>
+        <div class="products"></div>
+        <div class="msg"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
